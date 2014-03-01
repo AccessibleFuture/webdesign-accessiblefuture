@@ -3,6 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>Tables: HTML &amp; CSS | Accessible Future</title>
+
+        <style type="text/css" media="all">
+            /* Table rule */
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            /* Table heading */
+
+            thead {
+                border-bottom: 3px solid #333;
+            }
+
+            th {
+                text-align:left;
+            }
+
+            tbody tr {
+                border-bottom: 1px solid #ccc;
+            }
+
+            th[scope=row] {
+                text-align:right;
+            }
+
+        </style>
     </head>
     <body>
         <table>
