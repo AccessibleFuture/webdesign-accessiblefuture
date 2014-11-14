@@ -26,6 +26,38 @@
             <li>Always ask: What do these design/development decisions do for accessibility/usability/maintainability?</li>
         </ul>
 
+        <h2>Adding Accessibility Testing to your Workflow</h2>
+        <h3>Accessibility Toolkit</h3>
+        <ul>
+            <li>Web developer tools in the browser: Allow you to inspect the markup and styles for a page, among a host of other development features.
+            <ul>
+                <li><a href="https://developer.chrome.com/devtools">Developer tools in Chrome</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Tools">Developer tools in Firefox</a>. Also see <a href="http://getfirebug.com/">Firebug tools for Firefox</a>.</li>
+                <li><a href="http://msdn.microsoft.com/en-us/library/ie/hh673541%28v=vs.85%29.aspx">Developer tools in Internet Explorer</a></li>
+                <li><a href="http://www.opera.com/dragonfly/">Developer tools in Opera</a></li>
+                <li><a href="https://developer.apple.com/safari/tools/">Safari for Developers</a></li>
+            </li>
+            <li><a href="http://www.chromevox.com/">Google ChromeVox</a></li>
+            <li><a href="http://wave.webaim.org">WebAIM</a></li>
+            <li><a href="https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en">Accessibility Developer Tools for Google Chrome</a></li>
+            <li><a href="http://pa11y.org/">Pa11y</a></li>
+        </ul>
+
+        <h3>My Modest Workflow</h3>
+        <p>This is a list, in no particular order, of the things I do to test accessibility on a web page. It is by no means exhaustive.</li>
+        <ul>
+            <li><strong>Ask people to use the page</strong>. Does the content and its presentation make sense to them? Does it work for them?</li>
+            <li><strong>Listen to your site in a screen reader</strong>.</li>
+            <li><strong>Disable <abbr>CSS</abbr></strong>. Is content still displayed in a readable and ordered way? Do actionable links or icons or content remain, or disappear?</li>
+            <li><strong>Disable JavaScript</strong>. Does your site still work? Do actionable links or icons or content remain, or disappear?</li>
+            <li><strong>Disable images, audio, and video</strong>. Is the content still available, understandable and usable? Do any important controls or information disappear?</li>
+            <li><strong>Unplug the mouse or use the keyboard</strong>. Is it possible to use the keyboard to navigate the page? Is it obvious where they keyboard focus current is?</li>
+            <li><strong>Test the web page through WebAIM</strong>.</li>
+            <li><strong>Test the web page through an Accessibility audit in Google Chrome</strong>.</li>
+            <li><strong>Test the web page through pa11y</strong>.</li>
+            <li><strong>View source and read your code</strong>.</li>
+        </ul>
+
         <h2>Areas of Focus</h2>
         <ul>
             <li>Structure - <abbr>HTML</abbr></li>
