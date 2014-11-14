@@ -1,5 +1,5 @@
 body {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif", serif;
     color: #444;
     background: #fafafa;
     max-width: 600px;
@@ -12,10 +12,6 @@ h1 {
 
 h2 {
     font-size: 150%;
-}
-
-h1,h2,h3,h4 {
-    font-family: "Noto Serif", serif;
 }
 
 h2 + ul {
@@ -56,6 +52,10 @@ a:active {
     font-family: "Noto Serif", serif;
 }
 
+/*
+* Hide only visually, but have it available for screen readers:
+* http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*/
 .audible {
     border: 0;
     clip: rect(0 0 0 0);
